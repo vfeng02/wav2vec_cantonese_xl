@@ -1,4 +1,4 @@
-name: wav2vec
+name: wav2vec_test
 channels:
   - pytorch
   - defaults

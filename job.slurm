@@ -11,6 +11,8 @@
 #SBATCH --mail-user=vyfeng@princeton.edu
 
 module purge
-module load anaconda3/wav2vec_env
+module load anaconda3/2022.10
+conda env create -f wav2vec_env.yml
+conda activate wav2vec
 
 python data_processing.py
